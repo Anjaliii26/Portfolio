@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anjali|Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-RJiStguNl9GXPMsSY1YO3KM0TJQGFVyF9z7BqSFwJyoBOVlNzpfGmNig+1PQiC2h" crossorigin="anonymous">
+
+    <style>
+        *{
+            background-color: #081b29;
+            scroll-behavior: smooth; 
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth; 
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .section-content-project{
+margin-top: 500px;
+            
+        }
+        
+        #contact{
+            margin-top: 600px;
+        }
+
+    
+        .body1{
+            margin-top: 150px;
+            height: 100vh;
+            width: 100%;
+            background-color: #081b29;
+            color: #ffffff;
+            font-size: 16px;
+            scroll-behavior: smooth; 
+        }
+        .header-text{
+            margin-left: 25px;
+        }
+        header {
+            margin-top: 25px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+
+        .textss{
+            margin-top: 110px;
+            width: 720px;
+            height: 320px;
+            padding-left: 90px;
+            margin-right: 20px;
+            
+        }
+
+        h4{
+            color: white;
+            font-size: 25px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        }
+    
+    .text-2 h1{
+            margin-top: 0px;
+            color: #007aab;
+        }
+
+        h1{
+            
+            padding-left: 90px;
+            font-size: 40px;
+            
+        }
+        h1 span{
+            color: #0ef;
+        }
+        /* h3{
+            color: rgb(255, 255, 255);
+            padding-left: 90px;
+            font-size: 46px;
+            font-weight: 700;
+        } */
+        .textss p{
+            color: rgb(255, 255, 255);
+            padding-left: 90px;
+            font-size: 25px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .header-nav {
+            display: flex;
+        }
+
+        .nav-item {
+            font-weight: bold;
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            padding: 5px 10px;
+            padding-right: 50px;
+            text-decoration: none; 
+
+        }
+
+        .nav-item:hover {
+            border-bottom: 2px solid transparent;
+            color: #0ef;
+        }
+
+        .CV{
+            padding-top: 10px; 
+    padding-bottom: 10px; 
+    margin-left: 90px;
+    margin-bottom: 50px;
+    display: inline-block;
+            padding-left: 60px;
+            padding: 10px 20px;
+            font-size: 16px;
+            /* margin-top: 10px;
+            margin-right: 50px; */
+            background: #00abf0;
+            border-radius: 40px;
+            font-size: 16px;
+            color: #000000;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .CV:hover{
+            box-shadow: 0 0 10px 5px #00abf0;
+        }
+
+        .text-2 h1 {
+            animation-name: slideInLeft;
+            animation-duration: 1s;
+            animation-delay: 0.5s;
+        }
+
+        .header-nav a{
+            text-decoration:none ;
+        }
+
+        @keyframes slideInLeft {
+            from {
+                transform: translateX(-100%);
+            }
+        }
+
+        .imgs img{
+    border-radius: 50%; 
+    width: 300px; 
+    height: 300px; 
+    object-fit: cover;
+    object-position: center; 
+    margin-right: 200px;
+    margin-top: 50px;
+    box-shadow: 0 0 20px #0ef;
+    margin-top: 110px;
+
+}
+
+.home-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section {
+    /* margin-top: 10px;
+    width: 820px;
+    height: 320px;
+    margin-left: auto;
+    margin-right: auto; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #081b29;
+            color: #ffffff;
+            font-size: 16px;
+            scroll-behavior: smooth; 
+    
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.about-img img {
+    border-radius: 50%; 
+    width: 300px; 
+    height: 300px; 
+    object-fit: cover;
+    object-position: center; 
+    margin-right: 40px;
+    box-shadow: 0 0 20px #0ef;
+
+}
+.about-text{
+    width: 750px;
+}
+.about-text h2 {
+    font-size: 45px;
+}
+
+.about-text h2 span {
+    color: #0ef;
+}
+
+.about-text h4 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #ddd;
+}
+
+.about-text p {
+    font-size: 18px;
+    font-weight: 600;
+    color: aliceblue;
+}
+.CV{
+            padding-top: 10px; 
+    padding-bottom: 10px; 
+    margin-left: 90px;
+    margin-bottom: 50px;
+    display: inline-block;
+            padding-left: 60px;
+            padding: 10px 20px;
+            font-size: 16px;
+            /* margin-top: 10px;
+            margin-right: 50px; */
+            background: #00abf0;
+            border-radius: 40px;
+            font-size: 16px;
+            color: #000000;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 20px;
+        }
+
+        .CV:hover{
+            box-shadow: 0 0 10px 5px #00abf0;
+        }
+
+        .sections{
+            display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #081b29;
+            color: #ffffff;
+            font-size: 16px;
+            scroll-behavior: smooth; 
+        }
+
+        .section-content-edu{
+
+            margin-left: 150px;
+            margin-right: 250px;
+        }
+
+        #skills {
+    padding-top: 70px;
+}
+
+.skill-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 18px;
+    color: #ddd;
+}
+
+.skill-list li {
+    margin-bottom: 10px;
+}
+
+
+        section-content-skill{
+            margin-left: 100px;
+        }
+
+
+
+
+
+        .education-entry, .skill-entry {
+            margin-bottom: 20px;
+        }
+                
+        .education-entry h4, .skill-entry h4 {
+            font-size: 20px;
+            font-weight: bold;
+            color: #0ef;
+        }
+        
+        .education-entry p, .skill-entry p {
+            margin-top: 5px;
+            font-size: 16px;
+            color: #ddd;
+        }
+        #skills{
+            padding-top: 70px;
+            
+        }
+        .skill-entry {
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+        
+        .skill-entry h4 {
+            font-size: 20px;
+            font-weight: bold;
+            color: #0ef;
+        }
+        
+        .skill-entry img {
+            margin-right: 10px;
+            vertical-align: middle;
+            width: 25px;
+        }
+        
+        .skill-entry meter {
+            width: 400%;
+            height: 15px;
+        }
+
+        .contact-section {
+    background-image: url("./360_F_508779720_mevGw0UiCDurA6A195ayIk5sxaGFwuEu.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-section .right-side {
+    background-color: rgba(8, 27, 41, 0.7); 
+    padding: 40px;
+    border-radius: 10px; 
+}
+
+
+        .section2{
+            padding-left: 150px;
+            display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #081b29;
+            color: #ffffff;
+            font-size: 16px;
+            scroll-behavior: smooth; 
+
+        }
+.contact-title{
+    width: 300px;
+}
+        .contact-title h2{
+            font-weight: 600;
+            font-size: 40px;
+            margin-bottom: 5px;
+            color: #007aab;
+        }
+
+        .contact-title hr{
+            border: none;
+            width: 120px;
+            height: 5px;
+            background-color: #007aab;
+            border-radius: 10px;
+            margin-bottom: 20px;
+
+        }
+
+
+
+            .right-side{
+width: 500px;
+  margin-left: 75px;
+}
+
+.input-box{
+  height: 50px;
+  width: 400px;
+  margin: 12px 0;
+
+}
+.input-box input,.input-box textarea{
+    width: 400px;
+            height: 55px;
+            padding-left: 25px;
+            font-weight: 500;
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: #F0F1F8;
+  border-radius: 6px;
+  padding: 0 15px;
+  resize: none;
+
+}
+
+.input-box input,.input-box textarea:hover{
+            border: 3px solid #294e7c;
+        }
+
+.message-box{
+  min-height: 110px;
+}
+.right-side .input-box textarea{
+  padding-top: 6px;
+}
+.right-side .button{
+  display: inline-block;
+  margin-top: 12px;
+}
+.right-side .button input[type="button"]{
+  color: #fff;
+  font-size: 18px;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background: #0ef;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button input[type="button"]:hover{
+    box-shadow: 0 0 10px 5px #00abf0;
+    
+}
+
+#projects{
+    margin-top: 900px;
+}
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.project-entry {
+    background-color: #081b29;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.project-entry h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0ef;
+    margin-bottom: 10px;
+}
+
+.project-entry p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ddd;
+    margin-bottom: 15px;
+}
+
+.project-entry ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.project-entry ul li {
+    font-size: 16px;
+    color: #ddd;
+    margin-bottom: 5px;
+}
+
+.project-entry a {
+    color: #0ef;
+    text-decoration: none;
+}
+
+.project-entry a:hover {
+    text-decoration: underline;
+}
+
+            
+
+
+
+    </style>
+
+</head>
+<header>
+    <div class="header-text">
+        <h4>Anjali Daftari</h4>
+    </div>
+    <div class="header-nav">
+        <a href="#home">
+            <div class="nav-item">HOME</div>
+        </a>
+        <a href="#about">
+            <div class="nav-item">ABOUT</div>
+        </a>
+       
+        <a href="#skills">
+            <div class="nav-item">EDUCATION</div>
+        </a>
+         <a href="#projects">
+            <div class="nav-item">PROJECTS</div>
+        </a> 
+        <a href="#contact">
+            <div class="nav-item">CONTACT</div>
+        </a>
+    </div>
+</header>
+<body>
+    
+<div class="body1" id="#home">
+<div class="home-container">
+    <div class="textss" id="home">
+            <h1>Hii There! I'm <span>Anjali</span></h1>
+        <div class="text-2">
+            <h1>Frontend developer</h1>
+        </div>
+    <p>Step into the realm of pixels and possibilities: Welcome to my budding portfolio, where creativity meets code in the world of frontend development. Let's explore the endless possibilities together!</p>
+    <a href="#contact" class="CV">Let's Talk</a>
+    </div>
+
+    <div class="imgs">
+        <img src="./WhatsApp Image 2024-05-24 at 02.22.57_2cd31fb7.jpg">
+    </div>
+</div>
+</div>
+
+<div id="about" class="section">
+    <div class="about-content">
+        <div class="about-img">
+            <img src="./WhatsApp Image 2024-05-24 at 02.22.57_2cd31fb7.jpg" alt="Anjali's Photo">
+        </div>
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <br>
+            <p>As a dedicated Frontend Developer, I bring a robust skill set in HTML, CSS, JavaScript, and ReactJS to the table.</p>
+<p>My passion for crafting visually appealing and functional websites is matched by my commitment to responsive design principles.</p>
+<p>Currently, I am enriching my technical repertoire by diving into Data Structures and Algorithms, aiming to enhance the performance and scalability of my projects.</p>
+<p>With a keen eye for detail and a drive for continuous improvement, I am always on the lookout for opportunities to apply my web design expertise and contribute to innovative solutions.</p>
+<br>
+<br>
+            <a href="#skills" class="CV">Wanna know more?</a>
+        </div>
+    </div>
+</div>
+
+<div id="skills" class="sections">
+
+    <div class="section-content-edu">
+        <h2>Education</h2>
+        <div class="education-entry">
+            <h4>Higher Secondary School (HSC)</h4>
+            <p>Year: 2021</p>
+            <p>Percentage: 91.6%</p>
+        </div>
+        <div class="education-entry">
+            <h4>Secondary School Certificate (SSC)</h4>
+            <p>Year: 2019</p>
+            <p>Percentage: 93.6%</p>
+        </div>
+        <div class="education-entry">
+            <h4>Bachelor's Degree in Computer Science</h4>
+            <p>University: Your University</p>
+            <p>Graduation Year: 2025</p>
+            <p>CGPA: 8.34</p>
+        </div>
+    </div>
+
+    <section id="skills" class="sections">
+        <div class="section-content-skill">
+            <h2>Skills</h2>
+            <ul class="skill-list">
+                <li>HTML, CSS, JavaScript</li>
+                <li>ReactJS</li>
+                <li>Python</li>
+                <li>MongoDB</li>
+                <li>Git, GitHub</li>
+                <li>Responsive Web Design</li>
+                <li>Web Design, Figma</li>
+            </ul>
+        </div>
+    </section>
+    
+</div>
+
+<section id="projects" class="sections">
+    <div class="section-content-project">
+        <h2>Projects</h2>
+
+        <div class="project-entry">
+            <h3>Floral Business Website Template</h3>
+            <p><strong>Key Skills:</strong> HTML, CSS, JavaScript, Responsiveness, User Experience</p>
+            <p><strong>Project Link:</strong> <a href="https://anjaliii26.github.io/Flower/">Floral Business Website Template</a></p>
+            <p>Designed and developed a visually appealing responsive website template for a floral business, showcasing a range of products, informative blogs, and customer testimonials. Implemented user-friendly features such as a newsletter subscription form and responsive design for optimal viewing across devices.</p>
+        </div>
+
+        <div class="project-entry">
+            <h3>Contact-manager</h3>
+            <p><strong>Key Skills:</strong> ReactJS, CSS, Storage</p>
+            <p><strong>Project Link:</strong> <a href="https://github.com/Anjaliii26/Contact-manager">Contact-manager</a></p>
+            <p>A simple React-based contact manager enabling users to add, view, and delete contacts with data persistence using Local Storage.</p>
+        </div>
+
+        <div class="project-entry">
+            <h3>Speaker Conference Landing Page</h3>
+            <p><strong>Key Skills:</strong> HTML, CSS, Responsiveness</p>
+            <p><strong>Project Link:</strong> <a href="https://github.com/Anjaliii26/Event-Landing">Speaker Conference Landing Page</a></p>
+            <p>A responsive website for a speaker conference, featuring speaker profiles, event schedule, and registration functionality.</p>
+        </div>
+
+        <div class="project-entry">
+            <h3>Mini-Projects</h3>
+            <p><strong>Key Skills:</strong> HTML, CSS, JavaScript</p>
+            <p>Frontend mini-projects:</p>
+            <ul>
+                <li>Portfolio</li>
+                <li>Registration Tab</li>
+                <li>Color Flipper</li>
+                <li>Otp generator</li>
+                <li>Digital Clock</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+
+<div id="contact" class="section2 contact-section">
+    <div class="right-side">
+        <div class="contact-title">
+            <h2>Get in touch</h2>
+            <hr>
+        </div>
+
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Enter your name">
+        </div>
+        <div class="input-box">
+          <input type="text" placeholder="Enter your email">
+        </div>
+        <div class="input-box message-box">
+            <textarea placeholder="Enter your message"></textarea>
+          </div>
+          
+        <div class="button">
+          <input type="button" value="Send Now" >
+        </div>
+      </form>
+    </div>
+    </div>
+
+</body>
+</html>
